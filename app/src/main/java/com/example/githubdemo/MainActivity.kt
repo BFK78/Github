@@ -28,6 +28,8 @@ class MainActivity : ComponentActivity() {
                     ) {
                         Text(text = "yooo")
                         Text(text = "2Text View")
+                        Text(text = "yooo")
+                        Text(text = "2Text View")
                     }
                 }
             }
