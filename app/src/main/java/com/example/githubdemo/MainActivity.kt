@@ -22,10 +22,12 @@ class MainActivity : ComponentActivity() {
             GithubDemoTheme {
                 Surface(color = MaterialTheme.colors.background) {
                     Box(
-                        modifier = Modifier.fillMaxSize()
+                        modifier = Modifier
+                            .fillMaxSize()
                             .background(Color.Blue)
                     ) {
-
+                        Text(text = "yooo")
+                        Text(text = "2Text View")
                     }
                 }
             }
