@@ -35,6 +35,8 @@ class MainActivity : ComponentActivity() {
                         Text(text = "opfdfkd")
                         Text(text = "2Text View")
                         Text(text = "new new")
+                        Text(text = "new new")
+
 
                     }
                 }
