@@ -10,6 +10,7 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
@@ -22,10 +23,14 @@ class MainActivity : ComponentActivity() {
             GithubDemoTheme {
                 Surface(color = MaterialTheme.colors.background) {
                     Box(
-                        modifier = Modifier.fillMaxSize()
+                        modifier = Modifier
+                            .fillMaxSize()
                             .background(Color.Blue)
                     ) {
-
+                        Text(
+                            text = "This will become as an Error",
+                            modifier = Modifier.align(Alignment.Center)
+                        )
                     }
                 }
             }
