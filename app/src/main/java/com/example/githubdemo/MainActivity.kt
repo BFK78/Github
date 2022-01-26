@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier.fillMaxSize()
                             .background(Color.Blue)
                     ) {
-                        fdjsakfjsadl;kf
+
                     }
                 }
             }
